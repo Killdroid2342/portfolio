@@ -83,7 +83,7 @@ const Home = () => {
           </div>
           <div className='border border-red-900 rounded-lg p-32 m-2 cursor-pointer relative shadow-xl'>
             <img
-              src='/src/assets/img/Calendar.png'
+              src='/src/assets/img/Covid Tracker.png'
               alt='Covid Tracker'
               className='absolute top-0 left-0 w-full h-full object-cover rounded-lg'
             ></img>
@@ -93,7 +93,7 @@ const Home = () => {
           </div>
           <div className='border border-red-900 rounded-lg p-32 m-2 cursor-pointer relative shadow-xl'>
             <img
-              src='/src/assets/img/Calendar.png'
+              src='/src/assets/img/Joke.png'
               alt='Joke App'
               className='absolute top-0 left-0 w-full h-full object-cover rounded-lg'
             ></img>
@@ -105,7 +105,7 @@ const Home = () => {
         <div className='flex flex-row'>
           <div className='border border-red-900 rounded-lg p-32 m-2 cursor-pointer relative shadow-xl'>
             <img
-              src='/src/assets/img/Calendar.png'
+              src='/src/assets/img/To Do App.png'
               alt='To Do List'
               className='absolute top-0 left-0 w-full h-full object-cover rounded-lg'
             ></img>
@@ -115,7 +115,7 @@ const Home = () => {
           </div>
           <div className='border border-red-900 rounded-lg p-32 m-2 cursor-pointer relative shadow-xl'>
             <img
-              src='/src/assets/img/Calendar.png'
+              src='/src/assets/img/Random Colour.png'
               alt='Random Colour'
               className='absolute top-0 left-0 w-full h-full object-cover rounded-lg'
             ></img>
