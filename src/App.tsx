@@ -1,18 +1,12 @@
 import React from 'react';
+import AboutMe from './components/AboutMe';
+import Uses from './components/Uses';
+import Nav from './components/nav';
 
 const App = () => {
   return (
     <>
-      <nav className='mt-10 mr-40'>
-        <ul className='flex flex-row justify-end'>
-          <li className='p-2 cursor-pointer text-purple-900 font-bold mr-10'>
-            Github
-          </li>
-          <li className='hover:bg-purple-900 hover:text-white border-2 rounded-2xl border-purple-900 p-2 font-bold text-purple-900 cursor-pointer transition-all duration-500'>
-            Contact
-          </li>
-        </ul>
-      </nav>
+      <Nav />
       <h1 className='font-bold text-6xl text-center mt-56 text-purple-900'>
         Frontend Developer
       </h1>
@@ -24,45 +18,9 @@ const App = () => {
           See More
         </button>
       </div>
-      <div className='border border-purple-900 bg-purple-900 pb-72 h-2/5 mt-96'>
-        <h2 className='text-white text-center text-3xl font-bold mt-32'>
-          Hey there, Im Haroon Khan. Pleased to meet you.
-        </h2>
-        <div className='flex items-center justify-center flex-col'>
-          <p className='text-center text-white w-2/4 mt-10'>
-            Currently, I love spending most of my free time creating exciting
-            projects that people can enjoy. As a front-end developer, my goal is
-            to make users happy and meet their needs. I strive to create
-            user-friendly designs and interfaces that are both visually
-            appealing and easy to navigate. Ultimately, my aim is to deliver
-            high-quality work that people will appreciate and find useful.
-          </p>
-        </div>
-      </div>
-      <div className='flex justify-center relative -top-56'>
-        <div className='bg-white border rounded-lg w-96 shadow-xl	'>
-          <h2 className='text-2xl font-bold text-purple-900 text-center p-10'>
-            Frontend Developer
-          </h2>
-          <p className='text-center font-bold p-5'>
-            I have a preference for coding projects from the ground up, and take
-            pleasure in transforming concepts into functional web experiences.
-          </p>
-          <p className='p-10 text-purple-900 font-bold text-center'>
-            Languges and frameworks/libraries I use:
-          </p>
-          <p className='text-center p-2 font-bold'>
-            HTML, CSS, JavaScript, TypeScript, React, Git, Tailwind, Sass
-          </p>
-          <p className='text-center p-10 text-purple-900 font-bold'>
-            Dev Tools:
-          </p>
-          <p className='text-center p-2 font-bold'>Visual Studio Code</p>
-          <p className='text-center p-2 font-bold'>Terminal</p>
-          <p className='text-center p-2 font-bold'>Github</p>
-          <p className='text-center p-2 pb-10 font-bold'>Vercel</p>
-        </div>
-      </div>
+      <AboutMe />
+      <Uses />
+
       <h2 className='text-center text-4xl font-bold text-purple-900'>
         Some Of My Work
       </h2>
