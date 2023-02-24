@@ -7,7 +7,7 @@ const FrontPage = () => {
         Frontend Developer
       </h1>
       <p className='text-center mt-20 text-purple-900 font-bold text-lg'>
-        I love to code and create new beautiful projects.
+        I love to code and implement an idea into reality.
       </p>
       <div className='flex items-center justify-center mt-10'>
         <button className='hover:bg-purple-900 hover:text-white border-2 rounded-2xl border-purple-900 p-2 font-bold text-purple-900 cursor-pointer transition-all duration-500 mt-10'>
