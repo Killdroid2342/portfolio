@@ -8,10 +8,13 @@ const Footer = () => {
         and progressing.
       </h2>
       <div className='flex flex-col items-center'>
-        <div className='w-10 mt-10'>
-          <img src='/src/assets/img/github-mark-white.png' />
+        <div className='w-10 mt-5'>
+          <a href='https://github.com/Killdroid2342' target='_blank'>
+            <img src='/src/assets/img/github-mark-white.png' />
+          </a>
         </div>
       </div>
+      <p className='mt-5 text-white font-bold'>&copy; Haroon Khan 2023</p>
     </div>
   );
 };
