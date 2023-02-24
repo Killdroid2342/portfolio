@@ -18,7 +18,12 @@ const MyWork = () => {
               className='absolute top-0 left-0 w-full h-full object-cover rounded-lg'
             ></img>
             <div className='text-xl font-bold text-white absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-90 duration-200 hover:bg-purple-900 rounded-lg'>
-              Calendar
+              <a
+                href='https://calendar-three-liard.vercel.app/'
+                target='_blank'
+              >
+                Calendar
+              </a>
             </div>
           </div>
           <div className='border-2 border-purple-900 rounded-lg p-32 m-5 cursor-pointer relative shadow-xl'>
@@ -28,7 +33,12 @@ const MyWork = () => {
               className='absolute top-0 left-0 w-full h-full object-cover rounded-lg'
             ></img>
             <div className='text-xl font-bold text-white absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-90 duration-200 hover:bg-purple-900 rounded-lg'>
-              Covid Tracker
+              <a
+                href='https://covid-tracker-six-kappa.vercel.app/'
+                target='_blank'
+              >
+                Covid Tracker
+              </a>
             </div>
           </div>
           <div className='border-2 border-purple-900 rounded-lg p-32 m-5 cursor-pointer relative shadow-xl'>
@@ -38,7 +48,9 @@ const MyWork = () => {
               className='absolute top-0 left-0 w-full h-full object-cover rounded-lg'
             ></img>
             <div className='text-xl font-bold text-white absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-90 duration-200 hover:bg-purple-900 rounded-lg'>
-              Joke App
+              <a href='https://joke-app-woad.vercel.app/' target='_blank'>
+                Joke App
+              </a>
             </div>
           </div>
         </div>
@@ -50,7 +62,9 @@ const MyWork = () => {
               className='absolute top-0 left-0 w-full h-full object-cover rounded-lg'
             ></img>
             <div className='text-xl font-bold text-white absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-90 duration-200 hover:bg-purple-900 rounded-lg'>
-              To Do List
+              <a href='https://to-do-app-lac.vercel.app/' target='_blank'>
+                To Do List
+              </a>
             </div>
           </div>
           <div className='border-2 border-purple-900 rounded-lg p-32 m-5 cursor-pointer relative shadow-xl'>
@@ -60,7 +74,9 @@ const MyWork = () => {
               className='absolute top-0 left-0 w-full h-full object-cover rounded-lg'
             ></img>
             <div className='text-xl font-bold text-white absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-90 duration-200 hover:bg-purple-900 rounded-lg'>
-              Random Colour
+              <a href='https://random-colour.vercel.app/' target='_blank'>
+                Random Colour
+              </a>
             </div>
           </div>
         </div>
