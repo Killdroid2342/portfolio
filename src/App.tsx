@@ -6,6 +6,7 @@ import Uses from './components/Uses';
 import MyWork from './components/MyWork';
 import SoftwareUses from './components/SoftwareUses';
 import Footer from './components/Footer';
+import Particles from './components/Particles';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <MyWork />
       <SoftwareUses />
       <Footer />
+      <Particles />
     </>
   );
 };
