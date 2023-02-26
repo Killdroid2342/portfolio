@@ -1,10 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import App from '../App';
+import Particles from '../components/Particles';
 ---
 
 <Layout title='Portfolio'>
   <main>
-    <App />
+    <Particles client:load />
+    <App client:load/>
+   
   </main>
 </Layout>
