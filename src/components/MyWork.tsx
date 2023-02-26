@@ -28,7 +28,7 @@ const MyWork = () => {
           </div>
           <div className='border-2 border-purple-900 rounded-lg p-32 m-5 cursor-pointer relative shadow-xl'>
             <img
-              src='/src/assets/img/Covid Tracker.png'
+              src='/src/assets/img/Covid.png'
               alt='Covid Tracker'
               className='absolute top-0 left-0 w-full h-full object-cover rounded-lg'
             ></img>
@@ -57,7 +57,7 @@ const MyWork = () => {
         <div className='flex flex-row'>
           <div className='border-2 border-purple-900 rounded-lg p-32 m-5 cursor-pointer relative shadow-xl'>
             <img
-              src='/src/assets/img/To Do App.png'
+              src='/src/assets/img/To-Do-List.png'
               alt='To Do List'
               className='absolute top-0 left-0 w-full h-full object-cover rounded-lg'
             ></img>

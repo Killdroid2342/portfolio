@@ -7,6 +7,7 @@ import MyWork from './components/MyWork';
 import SoftwareUses from './components/SoftwareUses';
 import Footer from './components/Footer';
 import Particles from './components/Particles';
+import Contact from './components/Contact';
 
 const App = () => {
   return (
@@ -17,8 +18,8 @@ const App = () => {
       <Uses />
       <MyWork />
       <SoftwareUses />
+      <Contact />
       <Footer />
-      <Particles />
     </>
   );
 };
