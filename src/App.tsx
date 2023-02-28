@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import Nav from './components/Nav';
 import FrontPage from './components/FrontPage';
 import AboutMe from './components/AboutMe';
@@ -6,12 +6,31 @@ import Uses from './components/Uses';
 import MyWork from './components/MyWork';
 import SoftwareUses from './components/SoftwareUses';
 import Footer from './components/Footer';
-import Particles from './components/Particles';
 import Contact from './components/Contact';
+import './App.css';
 
-const App = () => {
+const App: React.FC = () => {
+  const cursorRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleMouseMove = (event: MouseEvent) => {
+      const { clientX, clientY } = event;
+      if (cursorRef.current) {
+        cursorRef.current.style.left = `${clientX}px`;
+        cursorRef.current.style.top = `${clientY}px`;
+      }
+    };
+
+    document.addEventListener('mousemove', handleMouseMove);
+
+    return () => {
+      document.removeEventListener('mousemove', handleMouseMove);
+    };
+  }, []);
+
   return (
-    <>
+    <div>
+      <div className='ring-cursor' ref={cursorRef}></div>
       <Nav />
       <FrontPage />
       <AboutMe />
@@ -20,7 +39,7 @@ const App = () => {
       <SoftwareUses />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 };
 

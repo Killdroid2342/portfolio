@@ -1,0 +1,16 @@
+body {
+  cursor: none;
+}
+
+.ring-cursor {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-30%, -0%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid grey;
+  pointer-events: none;
+  z-index: 9999;
+}
