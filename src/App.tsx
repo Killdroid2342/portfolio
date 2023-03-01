@@ -27,6 +27,10 @@ const App: React.FC = () => {
       document.removeEventListener('mousemove', handleMouseMove);
     };
   }, []);
+  if (typeof window !== 'undefined') {
+    window.history.scrollRestoration = 'manual';
+    window.scrollTo(0, 0);
+  }
 
   return (
     <div>
