@@ -31,12 +31,24 @@ const App: React.FC = () => {
     window.history.scrollRestoration = 'manual';
     window.scrollTo(0, 0);
   }
+  const toSecondHead = () => {
+    const getHead = document.getElementById('aboutHeader');
+    if (getHead) {
+      getHead.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+  const toContact = () => {
+    const getContact = document.getElementById('contact');
+    if (getContact) {
+      getContact.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <div>
       <div className='ring-cursor' ref={cursorRef}></div>
-      <Nav />
-      <FrontPage />
+      <Nav toContact={toContact} />
+      <FrontPage toSecondHead={toSecondHead} />
       <AboutMe />
       <Uses />
       <MyWork />
