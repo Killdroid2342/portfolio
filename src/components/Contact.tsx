@@ -1,8 +1,9 @@
 import React from 'react';
 
 const Contact = () => {
+  console.log('asdsad');
   return (
-    <div className='flex justify-center'>
+    <div id='contact' className='flex justify-center'>
       <div className='bg-white border rounded-lg w-96 shadow-xl'>
         <h2 className='text-2xl font-bold text-purple-900 text-center p-10'>
           Contact

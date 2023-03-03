@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Nav = () => {
+const Nav = ({ toContact }: any) => {
   return (
     <div>
       <nav className='mt-10 mr-40'>
@@ -14,7 +14,10 @@ const Nav = () => {
               Github
             </a>
           </li>
-          <li className='hover:bg-purple-900 border-2 rounded-2xl border-white p-2 font-bold text-white transition-all duration-500'>
+          <li
+            onClick={toContact}
+            className='hover:bg-purple-900 border-2 rounded-2xl border-white p-2 font-bold text-white transition-all duration-500'
+          >
             Contact
           </li>
         </ul>
