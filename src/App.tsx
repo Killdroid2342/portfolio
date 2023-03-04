@@ -9,6 +9,24 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 import './App.css';
 
+if (typeof window !== 'undefined') {
+  window.history.scrollRestoration = 'manual';
+  window.scrollTo(0, 0);
+}
+const scrollToElement = (id: any) => {
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+};
+
+const toSecondHead = () => {
+  scrollToElement('aboutHeader');
+};
+
+const toContact = () => {
+  scrollToElement('contact');
+};
 const App: React.FC = () => {
   const cursorRef = useRef<HTMLDivElement>(null);
 
@@ -27,22 +45,6 @@ const App: React.FC = () => {
       document.removeEventListener('mousemove', handleMouseMove);
     };
   }, []);
-  if (typeof window !== 'undefined') {
-    window.history.scrollRestoration = 'manual';
-    window.scrollTo(0, 0);
-  }
-  const toSecondHead = () => {
-    const getHead = document.getElementById('aboutHeader');
-    if (getHead) {
-      getHead.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-  const toContact = () => {
-    const getContact = document.getElementById('contact');
-    if (getContact) {
-      getContact.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
 
   return (
     <div>
