@@ -3,9 +3,9 @@ import React from 'react';
 const Uses = () => {
   return (
     <>
-      <div className='flex flex-row'>
+      <div className='flex flex-row justify-evenly'>
         <div className='flex justify-center relative -top-56'>
-          <div className='bg-white border rounded-lg w-96 shadow-xl	'>
+          <div className='bg-white border rounded-lg w-96 shadow-xl p-8	'>
             <h2 className='text-2xl font-bold text-purple-900 text-center p-10'>
               Frontend Developer
             </h2>
@@ -18,7 +18,7 @@ const Uses = () => {
         </div>
         <div className='flex justify-center relative -top-56'>
           <div className='bg-white border rounded-lg w-96 shadow-xl	'>
-            <p className='p-10 text-purple-900 font-bold text-center'>
+            <p className='p-10 text-purple-900 font-bold text-center text-2xl'>
               Languges and frameworks/libraries I use:
             </p>
             <p className='text-center p-2 font-bold'>
@@ -27,9 +27,9 @@ const Uses = () => {
           </div>
         </div>
       </div>
-      <div className='flex justify-center relative -top-56'>
+      <div className='flex justify-center relative -top-20 mb-40'>
         <div className='bg-white border rounded-lg w-96 shadow-xl	'>
-          <p className='text-center p-10 text-purple-900 font-bold'>
+          <p className='text-2xl text-center p-10 text-purple-900 font-bold'>
             Dev Tools:
           </p>
           <p className='text-center p-2 font-bold'>Visual Studio Code</p>
