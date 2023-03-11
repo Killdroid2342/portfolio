@@ -3,8 +3,8 @@ import React from 'react';
 const Uses = () => {
   return (
     <>
-      <div className='flex flex-row justify-evenly'>
-        <div className='flex justify-center relative -top-56'>
+      <div className='flex flex-col justify-evenly lg:flex-row'>
+        <div className='flex justify-center relative -top-56 mb-20'>
           <div className='bg-white border rounded-lg w-96 shadow-xl p-8	'>
             <h2 className='text-2xl font-bold text-purple-900 text-center p-10'>
               Frontend Developer
@@ -17,7 +17,7 @@ const Uses = () => {
           </div>
         </div>
         <div className='flex justify-center relative -top-56'>
-          <div className='bg-white border rounded-lg w-96 shadow-xl	'>
+          <div className='bg-white border rounded-lg w-96 shadow-xl'>
             <p className='p-10 text-purple-900 font-bold text-center text-2xl'>
               Languges and frameworks/libraries I use:
             </p>

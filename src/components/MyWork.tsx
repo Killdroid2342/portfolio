@@ -10,7 +10,7 @@ const MyWork = () => {
         This is some of the work that I have created
       </p>
       <div className='flex flex-col justify-center items-center'>
-        <div className='flex flex-row'>
+        <div className='flex flex-col lg:flex-row'>
           <div className='border-2 border-white rounded-lg p-32 m-5 cursor-none relative shadow-xl'>
             <img
               src='/src/assets/img/Calendar.png'
@@ -60,7 +60,7 @@ const MyWork = () => {
             </div>
           </div>
         </div>
-        <div className='flex flex-row'>
+        <div className='flex flex-col lg:flex-row'>
           <div className='border-2 border-white rounded-lg p-32 m-5 cursor-none relative shadow-xl'>
             <img
               src='/src/assets/img/To-Do-List.png'
@@ -85,7 +85,7 @@ const MyWork = () => {
             ></img>
             <div className='text-xl font-bold text-white absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-90 duration-200 hover:bg-purple-900 rounded-lg'>
               <a
-                href='https://random-colour.vercel.app/'
+                href='https://todoist-clone.vercel.app/'
                 target='_blank'
                 className='cursor-none'
               >
@@ -98,5 +98,4 @@ const MyWork = () => {
     </>
   );
 };
-
 export default MyWork;
