@@ -18,7 +18,7 @@ const SoftwareUses = () => {
       </div>
       <div className='flex flex-col md:flex-row justify-evenly'>
         <div className='flex justify-center relative -top-56'>
-          <div className='bg-white border rounded-lg w-96 shadow-xl	mb-40'>
+          <div className='bg-white border rounded-lg w-96 shadow-xl	mb-40 max-h-96'>
             <h2 className='text-2xl font-bold text-purple-900 text-center p-10'>
               Softwares
             </h2>
@@ -38,7 +38,7 @@ const SoftwareUses = () => {
           </div>
         </div>
         <div className='flex justify-center relative -top-56'>
-          <div className='bg-white border rounded-lg w-96 shadow-xl	'>
+          <div className='bg-white border rounded-lg w-96 shadow-xl max-h-96'>
             <h2 className='text-2xl font-bold text-purple-900 text-center p-10'>
               Softwares
             </h2>

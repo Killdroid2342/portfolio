@@ -10,8 +10,8 @@ const MyWork = () => {
         This is some of the work that I have created
       </p>
       <div className='flex flex-col justify-center items-center'>
-        <div className='flex flex-col lg:flex-row'>
-          <div className='border-2 border-white rounded-lg p-32 m-5 cursor-none relative shadow-xl'>
+        <div className='flex flex-col 2xl:flex-row'>
+          <div className='border-2 border-white rounded-lg p-40 m-20 cursor-none relative shadow-xl'>
             <img
               src='/src/assets/img/Calendar.png'
               alt='Calendar'
@@ -27,7 +27,7 @@ const MyWork = () => {
               </a>
             </div>
           </div>
-          <div className='border-2 border-white rounded-lg p-32 m-5 cursor-none relative shadow-xl'>
+          <div className='border-2 border-white rounded-lg p-40 m-20 cursor-none relative shadow-xl'>
             <img
               src='/src/assets/img/Covid.png'
               alt='Covid Tracker'
@@ -43,7 +43,7 @@ const MyWork = () => {
               </a>
             </div>
           </div>
-          <div className='border-2 border-white rounded-lg p-32 m-5 cursor-none relative shadow-xl'>
+          <div className='border-2 border-white rounded-lg p-40 m-20 cursor-none relative shadow-xl'>
             <img
               src='/src/assets/img/Joke.png'
               alt='Joke App'
@@ -60,8 +60,8 @@ const MyWork = () => {
             </div>
           </div>
         </div>
-        <div className='flex flex-col lg:flex-row'>
-          <div className='border-2 border-white rounded-lg p-32 m-5 cursor-none relative shadow-xl'>
+        <div className='flex flex-col 2xl:flex-row'>
+          <div className='border-2 border-white rounded-lg p-40 m-20 cursor-none relative shadow-xl'>
             <img
               src='/src/assets/img/To-Do-List.png'
               alt='To Do List'
@@ -77,7 +77,7 @@ const MyWork = () => {
               </a>
             </div>
           </div>
-          <div className='border-2 border-white rounded-lg p-32 m-5 cursor-none relative shadow-xl'>
+          <div className='border-2 border-white rounded-lg p-40 m-20 cursor-none relative shadow-xl'>
             <img
               src='/src/assets/img/RandomColor.png'
               alt='Random Colour'
