@@ -105,7 +105,7 @@ const MyWork = () => {
               ></img>
               <div className='text-xl font-bold text-white absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-90 duration-200 hover:bg-purple-900 rounded-lg'>
                 <a
-                  href='https://todoist-clone.vercel.app/'
+                  href='https://random-colour-r4ctjrmzt-killdroid2342.vercel.app/'
                   target='_blank'
                   className='cursor-none'
                 >
