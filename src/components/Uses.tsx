@@ -16,12 +16,12 @@ const Uses = () => {
             </p>
           </div>
         </div>
-        <div className='flex justify-center relative -top-56'>
-          <div className='bg-white border rounded-lg w-96 shadow-xl p-8'>
+        <div className='flex justify-center relative -top-56 mb-20'>
+          <div className='bg-white border rounded-lg w-96 shadow-xl p-8	'>
             <h2 className='text-2xl font-bold text-purple-900 text-center p-10'>
-              Languges and frameworks/libraries I use:
+              What I use:
             </h2>
-            <p className='text-center p-5 font-bold'>
+            <p className='text-center font-bold p-5'>
               HTML, CSS, JavaScript, TypeScript, React, Git, Tailwind, Sass
             </p>
           </div>
