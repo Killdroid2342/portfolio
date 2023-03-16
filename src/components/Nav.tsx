@@ -2,8 +2,8 @@ import React from 'react';
 
 const Nav = ({ toContact }: any) => {
   return (
-    <div>
-      <nav className='mt-10 mr-40'>
+    <div className='mr-10'>
+      <nav className='mt-10 mx-auto max-w-screen-lg'>
         <ul className='flex flex-row justify-end'>
           <li className='p-2 text-white font-bold mr-10'>
             <a
