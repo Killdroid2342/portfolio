@@ -9,10 +9,10 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 import './App.css';
 
-if (typeof window !== 'undefined') {
-  window.history.scrollRestoration = 'manual';
-  window.scrollTo(0, 0);
-}
+// if (typeof window !== 'undefined') {
+//   window.history.scrollRestoration = 'manual';
+//   window.scrollTo(0, 0);
+// }
 
 const scrollToElement = (id: any, duration: number = 1000) => {
   const element = document.getElementById(id);
