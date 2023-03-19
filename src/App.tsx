@@ -7,49 +7,11 @@ import MyWork from './components/MyWork';
 import SoftwareUses from './components/SoftwareUses';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
-import './App.css';
 
 // if (typeof window !== 'undefined') {
 //   window.history.scrollRestoration = 'manual';
 //   window.scrollTo(0, 0);
 // }
-
-const scrollToElement = (id: any, duration: number = 1000) => {
-  const element = document.getElementById(id);
-  if (element) {
-    const startPosition = window.pageYOffset;
-    const endPosition =
-      element.getBoundingClientRect().top + window.pageYOffset;
-    const distance = endPosition - startPosition;
-    let startTime: number | null = null;
-
-    const scrollAnimation = (currentTime: number) => {
-      if (startTime === null) startTime = currentTime;
-      const elapsed = currentTime - startTime;
-      const progress = Math.min(elapsed / duration, 1);
-      const ease = (progress: number) =>
-        progress < 0.5
-          ? 2 * progress * progress
-          : 1 - 2 * (1 - progress) * (1 - progress);
-      const newPosition = startPosition + distance * ease(progress);
-      window.scrollTo(0, newPosition);
-
-      if (elapsed < duration) {
-        requestAnimationFrame(scrollAnimation);
-      }
-    };
-
-    requestAnimationFrame(scrollAnimation);
-  }
-};
-
-const toSecondHead = () => {
-  scrollToElement('aboutHeader', 1000);
-};
-
-const toContact = () => {
-  scrollToElement('contact', 2500);
-};
 
 const App: React.FC = () => {
   const cursorRef = useRef<HTMLDivElement>(null);
@@ -65,6 +27,15 @@ const App: React.FC = () => {
 
     document.addEventListener('mousemove', handleMouseMove);
 
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener('click', function (this: any, e) {
+        e.preventDefault();
+        console.log('hello');
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth',
+        });
+      });
+    });
     return () => {
       document.removeEventListener('mousemove', handleMouseMove);
     };
@@ -73,8 +44,8 @@ const App: React.FC = () => {
   return (
     <div>
       <div className='ring-cursor' ref={cursorRef}></div>
-      <Nav toContact={toContact} />
-      <FrontPage toSecondHead={toSecondHead} />
+
+      <FrontPage />
       <AboutMe />
       <Uses />
       <MyWork />

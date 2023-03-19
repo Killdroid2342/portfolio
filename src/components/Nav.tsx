@@ -18,7 +18,7 @@ const Nav = ({ toContact }: any) => {
             onClick={toContact}
             className='hover:bg-purple-900 border-2 rounded-2xl border-white p-2 font-bold text-white transition-all duration-500'
           >
-            Contact
+            <a href='#contact'>Contact</a>
           </li>
         </ul>
       </nav>
