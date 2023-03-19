@@ -1,8 +1,13 @@
 import React from 'react';
+import Nav from './Nav';
 
 const FrontPage = ({ toSecondHead }: any) => {
   return (
-    <div>
+    <div className='overflow-hidden min-h-screen'>
+      <div id='stars'></div>
+      <div id='stars2'></div>
+      <div id='stars3'></div>
+      <Nav />
       <h1 className='font-bold text-6xl text-center mt-56 text-white'>
         Frontend Developer
       </h1>
