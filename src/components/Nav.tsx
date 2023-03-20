@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Nav = ({ toContact }: any) => {
+const Nav = () => {
   return (
     <div className='mr-10'>
       <nav className='mt-10 mx-auto max-w-screen-lg'>
         <ul className='flex flex-row justify-end'>
-          <li className='p-2 text-white font-bold mr-10'>
+          <li className='p-2 text-gray-300 font-bold mr-10'>
             <a
               href='https://github.com/Killdroid2342'
               target='_blank'
@@ -14,11 +14,10 @@ const Nav = ({ toContact }: any) => {
               Github
             </a>
           </li>
-          <li
-            onClick={toContact}
-            className='hover:bg-purple-900 border-2 rounded-2xl border-white p-2 font-bold text-white transition-all duration-500'
-          >
-            <a href='#contact'>Contact</a>
+          <li className='hover:bg-slate-900 border-2 rounded-lg border-gray-300 p-2 pl-4 pr-4 font-bold text-gray-300 transition-all duration-500'>
+            <a href='#contact' className='cursor-none'>
+              Contact
+            </a>
           </li>
         </ul>
       </nav>
