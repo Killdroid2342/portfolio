@@ -20,19 +20,25 @@ const { title } = Astro.props;
   </body>
 </html>
 <style is:global>
+  body {
+    overflow: overlay;
+}
   html {
     font-family: system-ui, sans-serif;
     cursor: none;
   }
   ::-webkit-scrollbar {
-    width: 8px;
-    background-color: #f5f5f5;
-  }
-  ::-webkit-scrollbar-thumb {
-    background-color: #5304a1;
-  }
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: #5304a1;
-  }
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(172, 165, 165, 0.493);
+  border-radius: 999px;
+}
+
+
+
 
 </style>
