@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from 'react';
-import Nav from './components/Nav';
 import FrontPage from './components/FrontPage';
 import AboutMe from './components/AboutMe';
 import Uses from './components/Uses';
@@ -7,7 +6,6 @@ import MyWork from './components/MyWork';
 import SoftwareUses from './components/SoftwareUses';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
-
 // if (typeof window !== 'undefined') {
 //   window.history.scrollRestoration = 'manual';
 //   window.scrollTo(0, 0);
@@ -30,7 +28,6 @@ const App: React.FC = () => {
     document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
       anchor.addEventListener('click', function (this: any, e) {
         e.preventDefault();
-        console.log('hello');
         document.querySelector(this.getAttribute('href')).scrollIntoView({
           behavior: 'smooth',
         });
@@ -44,7 +41,6 @@ const App: React.FC = () => {
   return (
     <div>
       <div className='ring-cursor' ref={cursorRef}></div>
-
       <FrontPage />
       <AboutMe />
       <Uses />

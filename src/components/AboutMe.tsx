@@ -2,11 +2,8 @@ import React from 'react';
 
 const AboutMe = () => {
   return (
-    <div
-      id='aboutHeader'
-      className='border border-purple-900 bg-purple-900 pb-72 h-2/5 mt-96'
-    >
-      <h2 className='text-white text-center text-3xl font-bold mt-32'>
+    <div id='aboutHeader' className=' bg-purple-900 pb-72 h-2/5'>
+      <h2 className='text-white text-center text-3xl font-bold pt-36'>
         Hey there, Im Haroon Khan. Pleased to meet you.
       </h2>
       <div className='flex items-center justify-center flex-col'>
