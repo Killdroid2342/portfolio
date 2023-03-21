@@ -44,6 +44,7 @@ const PROJECTS = [
 const MyWork = () => {
   return (
     <>
+      <h2 id='headers'>Projects</h2>
       <h2 className='text-center text-4xl font-bold text-white'>
         Some Of My Work
       </h2>
