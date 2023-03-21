@@ -3,7 +3,7 @@ import Nav from './Nav';
 
 const FrontPage = () => {
   return (
-    <div className='overflow-hidden min-h-screen'>
+    <div className='overflow-hidden min-h-screen' id='container'>
       <div id='stars'></div>
       <div id='stars2'></div>
       <div id='stars3'></div>
@@ -15,7 +15,7 @@ const FrontPage = () => {
         I love to code and implement an idea into reality.
       </p>
       <div className='flex items-center justify-center mt-10'>
-        <button className='hover:bg-slate-900 border-2 rounded-lg border-gray-300 p-2 pl-4 pr-4 font-bold text-gray-300 transition-all duration-500 cursor-none mt-10'>
+        <button className='hover:bg-gray-400 hover:text-slate-900 border-2 rounded-lg border-gray-300 p-2 pl-4 pr-4 font-bold text-gray-300 transition-all duration-500 cursor-none mt-10'>
           <a href='#aboutHeader' className='cursor-none'>
             See More
           </a>

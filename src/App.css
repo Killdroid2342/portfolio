@@ -21,7 +21,7 @@ body {
   background-color: rgba(0, 0, 0, 0.301);
 }
 #aboutHeader {
-  background-image: linear-gradient(to right, black, blue, black);
+  background-color: #090a0f;
 }
 #headOne {
   font-weight: 300;
@@ -36,4 +36,9 @@ body {
   background: -webkit-linear-gradient(top, white, rgb(56, 73, 90));
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+#headers {
+  text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+  font-size: 72px;
 }
