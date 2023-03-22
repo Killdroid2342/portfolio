@@ -43,7 +43,6 @@ const App: React.FC = () => {
       <div className='ring-cursor' ref={cursorRef}></div>
       <FrontPage />
       <AboutMe />
-      <Uses />
       <MyWork />
       <SoftwareUses />
       <Contact />
