@@ -37,8 +37,22 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-#headers {
+.headers {
   text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
     -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
   font-size: 72px;
+  color: #090a0f;
+  padding-bottom: 20px;
+}
+.section {
+  width: 1350px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  padding: 70px 0;
+}
+.row {
+  width: 100%;
+  display: flex;
 }
