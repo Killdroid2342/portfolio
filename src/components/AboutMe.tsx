@@ -1,4 +1,3 @@
-import React from 'react';
 import Uses from './Uses';
 const AboutMe = () => {
   return (
@@ -6,7 +5,7 @@ const AboutMe = () => {
       <div id='aboutHeader' className='pb-72 h-2/5'>
         <div className='section'>
           <h2 className='headers'>About Me</h2>
-          <div className='row'>
+          <div className='row '>
             <div>
               <h2 className='text-white text-3xl font-bold'>
                 Hey there, Im Haroon Khan
@@ -21,7 +20,7 @@ const AboutMe = () => {
                 find useful.
               </p>
             </div>
-            <div className='flex flex-col border border-red-800'>
+            <div className='flex flex-col'>
               <Uses />
             </div>
           </div>

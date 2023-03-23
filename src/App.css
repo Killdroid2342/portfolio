@@ -37,6 +37,11 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+#cardHeader {
+  font-weight: bold;
+  text-align: center;
+  color: #090a0f;
+}
 .headers {
   text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
     -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
@@ -47,7 +52,6 @@ body {
 .section {
   width: 1350px;
   margin: 0 auto;
-  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   padding: 70px 0;
