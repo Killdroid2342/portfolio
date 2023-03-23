@@ -1,15 +1,10 @@
 import React, { useEffect, useRef } from 'react';
-import FrontPage from './components/FrontPage';
+import FrontPage from './components/FrontPage/FrontPage';
 import AboutMe from './components/AboutMe';
-import Uses from './components/Uses';
 import MyWork from './components/MyWork';
 import SoftwareUses from './components/SoftwareUses';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
-// if (typeof window !== 'undefined') {
-//   window.history.scrollRestoration = 'manual';
-//   window.scrollTo(0, 0);
-// }
 
 const App: React.FC = () => {
   const cursorRef = useRef<HTMLDivElement>(null);
