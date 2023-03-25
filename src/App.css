@@ -20,7 +20,8 @@ body {
   z-index: 9999;
   background-color: rgba(0, 0, 0, 0.301);
 }
-#aboutHeader {
+#aboutHeader,
+.background {
   background-color: #090a0f;
 }
 #headOne {
@@ -48,6 +49,7 @@ body {
   font-size: 72px;
   color: #090a0f;
   padding-bottom: 20px;
+  background-color: #090a0f;
 }
 .section {
   width: 1350px;

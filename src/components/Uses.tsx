@@ -6,6 +6,10 @@ const cardData = [
     content:
       'I have a preference for coding projects from the ground up, and take pleasure in transforming concepts into functional web experiences.',
   },
+  // {
+  //   title: 'testing',
+  //   content: 'asddasdasdasdsa asd asd sa das a sda ds',
+  // },
 ];
 const Uses = () => {
   return (
