@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from 'react';
 import FrontPage from './components/FrontPage/FrontPage';
 import AboutMe from './components/AboutMe';
 import MyWork from './components/MyWork';
-import SoftwareUses from './components/SoftwareUses';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 
@@ -39,7 +38,6 @@ const App: React.FC = () => {
       <FrontPage />
       <AboutMe />
       <MyWork />
-      <SoftwareUses />
       <Contact />
       <Footer />
     </div>

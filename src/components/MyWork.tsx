@@ -43,14 +43,10 @@ const PROJECTS = [
 ];
 const MyWork = () => {
   return (
-    <>
-      <h2 className='headers'>Projects</h2>
-      <h2 className='text-center text-4xl font-bold text-white'>
-        Some Of My Work
-      </h2>
-      <p className='text-center text-white mt-6 mb-20'>
-        This is some of the work that I have created
-      </p>
+    <div className='background'>
+      <div className='section'>
+        <h2 className='headers'>Projects</h2>
+      </div>
       <ul className='flex flex-wrap justify-center items-center pt-10 gap-32 w-[1380px] mx-auto max-w-full'>
         {PROJECTS.map((project, i) => {
           return (
@@ -78,7 +74,7 @@ const MyWork = () => {
           );
         })}
       </ul>
-    </>
+    </div>
   );
 };
 export default MyWork;
