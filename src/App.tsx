@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import FrontPage from './components/FrontPage/FrontPage';
-import AboutMe from './components/AboutMe';
+import AboutMe from './components/AboutMe/AboutMe';
 import MyWork from './components/MyWork';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
