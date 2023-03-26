@@ -2,19 +2,32 @@ import { Key, useState } from 'react';
 
 const Carousel = ({ cards }: any) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isChangingCard, setIsChangingCard] = useState(false);
 
   const handlePrevClick = () => {
-    setCurrentIndex((currentIndex - 1 + cards.length) % cards.length);
+    setIsChangingCard(true);
+    setTimeout(() => {
+      setCurrentIndex((currentIndex - 1 + cards.length) % cards.length);
+      setIsChangingCard(false);
+    }, 500);
   };
 
   const handleNextClick = () => {
-    setCurrentIndex((currentIndex + 1) % cards.length);
+    setIsChangingCard(true);
+    setTimeout(() => {
+      setCurrentIndex((currentIndex + 1) % cards.length);
+      setIsChangingCard(false);
+    }, 500);
   };
 
   return (
-    <div className='flex justify-center relative mb-20 h-96'>
-      <div className='bg-white border rounded-lg w-96 shadow-xl p-8'>
-        <div className='h-72'>
+    <div className='flex justify-center relative mb-20'>
+      <div
+        className={`bg-white border rounded-lg w-96 shadow-xl p-8 transition-opacity h-full ${
+          isChangingCard ? 'opacity-0' : 'opacity-100'
+        }`}
+      >
+        <div className='h-80'>
           <h2 className='text-2xl p-10' id='cardHeader'>
             {cards[currentIndex].title}
           </h2>
