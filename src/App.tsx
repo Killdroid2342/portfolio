@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import FrontPage from './components/FrontPage/FrontPage';
 import AboutMe from './components/AboutMe/AboutMe';
-import MyWork from './components/MyWork';
+import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 
@@ -37,7 +37,7 @@ const App: React.FC = () => {
       <div className='ring-cursor' ref={cursorRef}></div>
       <FrontPage />
       <AboutMe />
-      <MyWork />
+      <Projects />
       <Contact />
       <Footer />
     </div>
