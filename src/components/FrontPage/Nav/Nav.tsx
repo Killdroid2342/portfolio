@@ -14,6 +14,11 @@ const Nav = () => {
               Github
             </a>
           </li>
+          <a href='#projects' className='cursor-none'>
+            <li className=' p-2 pl-4 pr-4 font-bold text-gray-300 transition-all duration-500 mr-10'>
+              Projects
+            </li>
+          </a>
           <a href='#contact' className='cursor-none'>
             <li className='hover:bg-gray-400 hover:text-slate-900 border-2 rounded-lg border-gray-300 p-2 pl-4 pr-4 font-bold text-gray-300 transition-all duration-500'>
               Contact
