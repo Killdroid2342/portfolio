@@ -21,7 +21,8 @@ body {
   background-color: rgba(0, 0, 0, 0.301);
 }
 #aboutHeader,
-.background {
+.background,
+#contact {
   background-color: #090a0f;
 }
 #headOne {
@@ -64,4 +65,7 @@ body {
 }
 .transition-opacity {
   transition: opacity 0.5s ease-in-out;
+}
+#FColor {
+  background-color: #050609;
 }
