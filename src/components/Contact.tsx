@@ -4,19 +4,43 @@ const Contact = () => {
   return (
     <div id='contact'>
       <div className='section'>
-        <h2 className='headers'>Contact</h2>
-        <div className='flex flex-row justify-center'>
-          <div>
-            <div className='border border-white rounded-2xl'>Pic</div>
-            <p>Email</p>
+        <h2 className='headers mb-20'>Contact</h2>
+        <div className='flex flex-row justify-evenly'>
+          <div className='flex flex-col'>
+            <div className='w-24 h-24 rounded-full flex items-center'>
+              <a href='https://github.com/Killdroid2342' target='_blank'>
+                <img
+                  src='/src/assets/img/Gmail.png'
+                  alt='Gmail'
+                  className='object-cover w-full h-full cursor-none'
+                />
+              </a>
+            </div>
+            <p className='text-white text-center text-2xl'>Email</p>
           </div>
-          <div>
-            <div className='border border-white rounded-2xl'>Pic</div>
-            <p>Linked In</p>
+          <div className='flex flex-col'>
+            <div className='w-24 h-24 rounded-full flex items-center'>
+              <a href='https://github.com/Killdroid2342' target='_blank'>
+                <img
+                  src='/src/assets/img/Github.png'
+                  alt='Gmail'
+                  className='object-cover w-full h-full cursor-none'
+                />
+              </a>
+            </div>
+            <p className='text-white text-center text-2xl'>Github</p>
           </div>
-          <div>
-            <div className='border border-white rounded-2xl'>Pic</div>
-            <p>Github</p>
+          <div className='flex flex-col'>
+            <div className='w-24 h-24 rounded-full flex items-center'>
+              <a href='#' target='_blank'>
+                <img
+                  src='/src/assets/img/LinkedIn.png'
+                  alt='Gmail'
+                  className='object-cover w-full h-full cursor-none'
+                />
+              </a>
+            </div>
+            <p className='text-white text-center text-2xl'>Linked In</p>
           </div>
         </div>
       </div>
