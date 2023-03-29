@@ -2,10 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div
-      className=' bg-purple-900 flex flex-col items-center justify-center h-60'
-      id='FColor'
-    >
+    <div className='flex flex-col items-center justify-center h-60' id='FColor'>
       <h2 className='text-center text-white font-bold'>
         Every day presents an opportunity for growth through living, learning,
         and progressing.

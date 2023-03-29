@@ -2,7 +2,7 @@ import React from 'react';
 
 const Nav = () => {
   return (
-    <div className='mr-10'>
+    <div>
       <nav className='mt-10 mx-auto max-w-screen-lg'>
         <ul className='flex flex-row justify-end'>
           <li className='p-2 text-gray-300 font-bold mr-10'>
@@ -15,9 +15,7 @@ const Nav = () => {
             </a>
           </li>
           <a href='#projects' className='cursor-none'>
-            <li className=' p-2 pl-4 pr-4 font-bold text-gray-300 transition-all duration-500 mr-10'>
-              Projects
-            </li>
+            <li className='p-2 text-gray-300 font-bold mr-10'>Projects</li>
           </a>
           <a href='#contact' className='cursor-none'>
             <li className='hover:bg-gray-400 hover:text-slate-900 border-2 rounded-lg border-gray-300 p-2 pl-4 pr-4 font-bold text-gray-300 transition-all duration-500'>
