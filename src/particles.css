@@ -1,14 +1,13 @@
-html,
-body {
+body,
+html {
   height: 100%;
-  background: linear-gradient(to bottom, #1b2735 0%, #090a0f 100%);
+  background: linear-gradient(to bottom, #1b2735 0, #090a0f 100%);
   margin: 0;
 }
-
 #stars {
   width: 1px;
   height: 1px;
-  background: transparent;
+  background: 0 0;
   box-shadow: 1602px 661px #fff, 1779px 795px #fff, 1154px 812px #fff,
     1328px 800px #fff, 1262px 1251px #fff, 1976px 432px #fff, 1650px 1853px #fff,
     1001px 468px #fff, 609px 405px #fff, 1842px 1576px #fff, 742px 1365px #fff,
@@ -193,7 +192,7 @@ body {
   top: 2000px;
   width: 1px;
   height: 1px;
-  background: transparent;
+  background: 0 0;
   box-shadow: 1602px 661px #fff, 1779px 795px #fff, 1154px 812px #fff,
     1328px 800px #fff, 1262px 1251px #fff, 1976px 432px #fff, 1650px 1853px #fff,
     1001px 468px #fff, 609px 405px #fff, 1842px 1576px #fff, 742px 1365px #fff,
@@ -371,11 +370,10 @@ body {
     1006px 1085px #fff, 428px 1043px #fff, 1915px 1585px #fff, 232px 1935px #fff,
     767px 706px #fff, 431px 334px #fff, 897px 15px #fff, 705px 146px #fff;
 }
-
 #stars2 {
   width: 2px;
   height: 2px;
-  background: transparent;
+  background: 0 0;
   box-shadow: 743px 879px #fff, 1145px 1260px #fff, 1412px 672px #fff,
     507px 1211px #fff, 52px 89px #fff, 1045px 256px #fff, 1022px 859px #fff,
     1520px 413px #fff, 1575px 604px #fff, 992px 877px #fff, 914px 960px #fff,
@@ -435,7 +433,7 @@ body {
   top: 2000px;
   width: 2px;
   height: 2px;
-  background: transparent;
+  background: 0 0;
   box-shadow: 743px 879px #fff, 1145px 1260px #fff, 1412px 672px #fff,
     507px 1211px #fff, 52px 89px #fff, 1045px 256px #fff, 1022px 859px #fff,
     1520px 413px #fff, 1575px 604px #fff, 992px 877px #fff, 914px 960px #fff,
@@ -488,11 +486,10 @@ body {
     1126px 1916px #fff, 412px 592px #fff, 852px 732px #fff, 1060px 444px #fff,
     323px 1676px #fff, 1593px 1616px #fff;
 }
-
 #stars3 {
   width: 3px;
   height: 3px;
-  background: transparent;
+  background: 0 0;
   box-shadow: 1703px 1208px #fff, 381px 207px #fff, 1516px 1990px #fff,
     1960px 982px #fff, 922px 1278px #fff, 689px 1766px #fff, 538px 554px #fff,
     802px 1529px #fff, 871px 1805px #fff, 228px 1830px #fff, 353px 186px #fff,
@@ -527,7 +524,7 @@ body {
   top: 2000px;
   width: 3px;
   height: 3px;
-  background: transparent;
+  background: 0 0;
   box-shadow: 1703px 1208px #fff, 381px 207px #fff, 1516px 1990px #fff,
     1960px 982px #fff, 922px 1278px #fff, 689px 1766px #fff, 538px 554px #fff,
     802px 1529px #fff, 871px 1805px #fff, 228px 1830px #fff, 353px 186px #fff,
@@ -555,7 +552,6 @@ body {
     1067px 296px #fff, 746px 463px #fff, 412px 349px #fff, 1193px 1421px #fff,
     564px 455px #fff, 1675px 589px #fff;
 }
-
 #title {
   position: absolute;
   top: 50%;
@@ -563,7 +559,7 @@ body {
   right: 0;
   color: #fff;
   text-align: center;
-  font-family: 'lato', sans-serif;
+  font-family: lato, sans-serif;
   font-weight: 300;
   font-size: 50px;
   letter-spacing: 10px;
@@ -576,10 +572,9 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 @keyframes animStar {
   from {
-    transform: translateY(0px);
+    transform: translateY(0);
   }
   to {
     transform: translateY(-2000px);
