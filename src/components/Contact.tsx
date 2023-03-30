@@ -8,7 +8,7 @@ const Contact = () => {
         <div className='flex flex-row justify-evenly'>
           <div className='flex flex-col'>
             <div className='w-24 h-24 rounded-full flex items-center'>
-              <a href='https://github.com/Killdroid2342' target='_blank'>
+              <a href='mailto:haroonkhan120704@gmail.com' target='_blank'>
                 <img
                   src='/src/assets/img/Gmail.png'
                   alt='Gmail'
@@ -32,7 +32,10 @@ const Contact = () => {
           </div>
           <div className='flex flex-col'>
             <div className='w-24 h-24 rounded-full flex items-center'>
-              <a href='#' target='_blank'>
+              <a
+                href='https://www.linkedin.com/in/haroon-khan-12203b270/'
+                target='_blank'
+              >
                 <img
                   src='/src/assets/img/LinkedIn.png'
                   alt='Gmail'

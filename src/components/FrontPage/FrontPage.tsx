@@ -4,9 +4,10 @@ import Nav from './Nav/Nav';
 const FrontPage = () => {
   return (
     <div className='overflow-hidden min-h-screen' id='container'>
-      <div id='stars'></div>
-      <div id='stars2'></div>
-      <div id='stars3'></div>
+      <div id='stars' />
+      <div id='stars2' />
+      <div id='stars3' />
+
       <Nav />
       <h1 className='font-bold text-6xl text-center mt-56' id='headOne'>
         Frontend Developer
