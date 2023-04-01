@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 type Project = {
   title: string;
@@ -47,6 +47,18 @@ const Projects = () => {
   const [selectedProject, setSelectedProject] = useState<Project>(
     projectData[0]
   );
+  const [showContent, setShowContent] = useState(false);
+
+  useEffect(() => {
+    setShowContent(false);
+    setTimeout(() => {
+      setShowContent(true);
+    }, 200);
+  }, [selectedProject]);
+
+  const handleProjectClick = (project: Project) => {
+    setSelectedProject(project);
+  };
 
   return (
     <div id='projects'>
@@ -58,40 +70,36 @@ const Projects = () => {
             {selectedProject && ` - ${selectedProject.title}`}
           </h2>
           <div className='flex flex-row'>
-            <div className=' w-10/12'>
+            <div className={`w-10/12 ${showContent ? 'fade-in' : ''}`}>
               <p className='w-8/12 text-white mt-5 mr-20'>
-                {selectedProject ? selectedProject.content : ``}
+                {selectedProject ? selectedProject.content : ''}
               </p>
-
-              <button className='text-white font-bold mt-5 mr-5 cursor-none'>
+              <button className='text-white font-bold mt-5 mr-5'>
                 <a
                   href={selectedProject?.projectLink}
                   target='_blank'
                   rel='noreferrer'
-                  className='cursor-none'
                 >
                   View Project
                 </a>
               </button>
-              <button className='text-white font-bold cursor-none'>
+              <button className='text-white font-bold'>
                 <a
                   href={selectedProject?.githubLink}
                   target='_blank'
                   rel='noreferrer'
-                  className='cursor-none'
                 >
                   View Code
                 </a>
               </button>
             </div>
-
             <div className='border border-white'></div>
             <ul className='ml-20'>
               {projectData.map((project) => (
                 <li
                   className='text-white text-center pb-10 font-bold'
                   key={project.title}
-                  onClick={() => setSelectedProject(project)}
+                  onClick={() => handleProjectClick(project)}
                 >
                   {project.title}
                 </li>
