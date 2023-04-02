@@ -47,17 +47,14 @@ const Projects = () => {
   const [selectedProject, setSelectedProject] = useState<Project>(
     projectData[0]
   );
-  const [showContent, setShowContent] = useState(false);
-
-  useEffect(() => {
-    setShowContent(false);
-    setTimeout(() => {
-      setShowContent(true);
-    }, 200);
-  }, [selectedProject]);
+  const [showContent, setShowContent] = useState(true);
 
   const handleProjectClick = (project: Project) => {
-    setSelectedProject(project);
+    setShowContent(false);
+    setTimeout(() => {
+      setSelectedProject(project);
+      setShowContent(true);
+    }, 200);
   };
 
   return (
