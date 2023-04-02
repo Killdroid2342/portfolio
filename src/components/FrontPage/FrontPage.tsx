@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from './Nav/Nav';
 
-const FrontPage = () => {
+export default function FrontPage() {
   return (
     <div className='overflow-hidden min-h-screen' id='container'>
       <div id='stars' />
@@ -24,6 +24,4 @@ const FrontPage = () => {
       </div>
     </div>
   );
-};
-
-export default FrontPage;
+}

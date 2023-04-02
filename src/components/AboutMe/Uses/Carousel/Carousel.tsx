@@ -1,6 +1,6 @@
 import { Key, useState } from 'react';
 
-const Carousel = ({ cards }: any) => {
+export default function Carousel({ cards }: any) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isChangingCard, setIsChangingCard] = useState(false);
 
@@ -64,6 +64,4 @@ const Carousel = ({ cards }: any) => {
       </div>
     </div>
   );
-};
-
-export default Carousel;
+}

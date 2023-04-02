@@ -5,7 +5,7 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 
-const App: React.FC = () => {
+export default function App() {
   const cursorRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -42,6 +42,4 @@ const App: React.FC = () => {
       <Footer />
     </div>
   );
-};
-
-export default App;
+}

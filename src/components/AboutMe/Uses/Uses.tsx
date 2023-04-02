@@ -14,12 +14,10 @@ const cardData = [
   },
 ];
 
-const Uses = () => {
+export default function Uses() {
   return (
     <div className='flex justify-center'>
       <Carousel cards={cardData} />
     </div>
   );
-};
-
-export default Uses;
+}

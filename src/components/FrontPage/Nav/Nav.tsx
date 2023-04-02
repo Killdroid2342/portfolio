@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Nav = () => {
+export default function Nav() {
   return (
     <div>
       <nav className='mt-10 mx-auto max-w-screen-lg'>
@@ -26,6 +26,4 @@ const Nav = () => {
       </nav>
     </div>
   );
-};
-
-export default Nav;
+}

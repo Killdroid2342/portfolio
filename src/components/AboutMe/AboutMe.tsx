@@ -1,5 +1,6 @@
 import Uses from './Uses/Uses';
-const AboutMe = () => {
+
+export default function AboutMe() {
   return (
     <>
       <div id='aboutHeader' className='pb-72 h-2/5'>
@@ -42,6 +43,4 @@ const AboutMe = () => {
       </div>
     </>
   );
-};
-
-export default AboutMe;
+}

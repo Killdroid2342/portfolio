@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 type Project = {
   title: string;
@@ -43,7 +43,7 @@ const projectData: Project[] = [
   },
 ];
 
-const Projects = () => {
+export default function Projects() {
   const [selectedProject, setSelectedProject] = useState<Project>(
     projectData[0]
   );
@@ -54,7 +54,7 @@ const Projects = () => {
     setTimeout(() => {
       setSelectedProject(project);
       setShowContent(true);
-    }, 200);
+    }, 100);
   };
 
   return (
@@ -71,20 +71,22 @@ const Projects = () => {
               <p className='w-8/12 text-white mt-5 mr-20'>
                 {selectedProject ? selectedProject.content : ''}
               </p>
-              <button className='text-white font-bold mt-5 mr-5'>
+              <button className='text-white font-bold mt-5 mr-5 cursor-none'>
                 <a
                   href={selectedProject?.projectLink}
                   target='_blank'
                   rel='noreferrer'
+                  className='cursor-none'
                 >
                   View Project
                 </a>
               </button>
-              <button className='text-white font-bold'>
+              <button className='text-white font-bold cursor-none'>
                 <a
                   href={selectedProject?.githubLink}
                   target='_blank'
                   rel='noreferrer'
+                  className='cursor-none'
                 >
                   View Code
                 </a>
@@ -107,6 +109,4 @@ const Projects = () => {
       </div>
     </div>
   );
-};
-
-export default Projects;
+}
