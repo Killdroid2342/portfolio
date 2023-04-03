@@ -18,9 +18,7 @@ export default function Nav() {
             <li className='p-2 text-gray-300 font-bold mr-10'>Projects</li>
           </a>
           <a href='#contact' className='cursor-none'>
-            <li className='hover:bg-gray-400 hover:text-slate-900 border-2 rounded-lg border-gray-300 p-2 pl-4 pr-4 font-bold text-gray-300 transition-all duration-500'>
-              Contact
-            </li>
+            <li className='p-2 text-gray-300 font-bold mr-10 btn'>Contact</li>
           </a>
         </ul>
       </nav>
