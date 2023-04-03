@@ -1,14 +1,19 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import FrontPage from './components/FrontPage/FrontPage';
 import AboutMe from './components/AboutMe/AboutMe';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import Loader from './components/Loader/Loader';
 
 export default function App() {
   const cursorRef = useRef<HTMLDivElement>(null);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000); // C
     const handleMouseMove = (event: MouseEvent) => {
       const { clientX, clientY } = event;
       if (cursorRef.current) {
@@ -31,7 +36,13 @@ export default function App() {
       document.removeEventListener('mousemove', handleMouseMove);
     };
   }, []);
-
+  if (isLoading) {
+    return (
+      <div>
+        <Loader />
+      </div>
+    );
+  }
   return (
     <div>
       <div className='ring-cursor' ref={cursorRef}></div>
