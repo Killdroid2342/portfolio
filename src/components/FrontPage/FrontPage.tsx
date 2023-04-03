@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from './Nav/Nav';
+import MainButton from './MainButton/MainButton';
 
 export default function FrontPage() {
   return (
@@ -15,11 +16,9 @@ export default function FrontPage() {
       <p className='text-center mt-20 text-lg' id='headTwo'>
         I love to code and implement an idea into reality.
       </p>
-      <div className='flex items-center justify-center mt-10'>
+      <div className='flex items-center justify-center mt-14'>
         <a href='#aboutHeader' className='cursor-none'>
-          <button className='hover:bg-gray-400 hover:text-slate-900 border-2 rounded-lg border-gray-300 p-2 pl-4 pr-4 font-bold text-gray-300 transition-all duration-500 cursor-none mt-10'>
-            See More
-          </button>
+          <MainButton />
         </a>
       </div>
     </div>
