@@ -21,7 +21,7 @@ export default function Carousel({ cards }: any) {
   };
 
   return (
-    <div className='flex justify-center relative mb-20'>
+    <div className='flex justify-center relative mb-20 carousel'>
       <div
         className={`bg-white border rounded-lg w-96 shadow-xl p-8 transition-opacity h-full ${
           isChangingCard ? 'opacity-0' : 'opacity-100'
@@ -50,7 +50,7 @@ export default function Carousel({ cards }: any) {
           </div>
         </div>
         <div className='flex justify-center items-center mt-4'>
-          <div className='flex'>
+          <div className='flex sm:mt-10'>
             {cards.map((card: any, index: any) => (
               <div
                 key={index}

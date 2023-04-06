@@ -58,7 +58,6 @@ body {
   display: flex;
   flex-direction: column;
   padding: 70px 0;
-  border: 1px solid red;
 }
 .row {
   width: 100%;
@@ -97,5 +96,13 @@ body {
 @media only screen and (max-width: 430px) {
   .section {
     width: 300px;
+  }
+  .carousel {
+    width: 300px;
+    height: 500px;
+  }
+  .headers {
+    font-size: 50px;
+    width: 270px;
   }
 }

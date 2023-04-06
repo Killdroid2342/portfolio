@@ -97,7 +97,7 @@ export default function Projects() {
             <ul className='ml-20'>
               {projectData.map((project) => (
                 <li
-                  className='text-white text-center pb-10 font-bold'
+                  className='text-white text-center pb-10 font-bold 2xl:text-start 2xl:mt-5'
                   key={project.title}
                   onClick={() => handleProjectClick(project)}
                 >
