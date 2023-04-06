@@ -10,7 +10,7 @@ export default function Contact() {
             <div className='w-24 h-24 rounded-full flex items-center'>
               <a href='mailto:haroonkhan120704@gmail.com' target='_blank'>
                 <img
-                  src='/src/assets/img/Gmail.png'
+                  src='src/assets/img/Gmail.png'
                   alt='Gmail'
                   className='object-cover w-full h-full cursor-none'
                 />
@@ -22,7 +22,7 @@ export default function Contact() {
             <div className='w-24 h-24 rounded-full flex items-center'>
               <a href='https://github.com/Killdroid2342' target='_blank'>
                 <img
-                  src='/src/assets/img/Github.png'
+                  src='src/assets/img/Github.png'
                   alt='Gmail'
                   className='object-cover w-full h-full cursor-none'
                 />
@@ -37,7 +37,7 @@ export default function Contact() {
                 target='_blank'
               >
                 <img
-                  src='/src/assets/img/LinkedIn.png'
+                  src='src/assets/img/LinkedIn.png'
                   alt='Gmail'
                   className='object-cover w-full h-full cursor-none'
                 />
