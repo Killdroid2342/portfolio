@@ -66,7 +66,8 @@ export default function Projects() {
             Some Of My Work
             {selectedProject && ` - ${selectedProject.title}`}
           </h2>
-          <div className='flex flex-row'>
+
+          <div className='flex flex-row 2xl:flex-col'>
             <div className={`w-10/12 ${showContent ? 'fade-in' : ''}`}>
               <p className='w-8/12 text-white mt-5 mr-20'>
                 {selectedProject ? selectedProject.content : ''}

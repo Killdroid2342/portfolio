@@ -3,8 +3,8 @@ import React from 'react';
 export default function Contact() {
   return (
     <div id='contact'>
-      <div className='section'>
-        <h2 className='headers mb-20'>Contact</h2>
+      <div className='section border border-red-900 w-20'>
+        <h2 className='headers mb-20 w-40'>Contact</h2>
         <div className='flex flex-row justify-evenly'>
           <div className='flex flex-col'>
             <div className='w-24 h-24 rounded-full flex items-center'>
@@ -12,7 +12,7 @@ export default function Contact() {
                 <img
                   src='/src/assets/img/Gmail.png'
                   alt='Gmail'
-                  className='object-cover w-full h-full cursor-none'
+                  className='object-cover w-full h-full cursor-none border border-white'
                 />
               </a>
             </div>
@@ -24,7 +24,7 @@ export default function Contact() {
                 <img
                   src='/src/assets/img/Github.png'
                   alt='Gmail'
-                  className='object-cover w-full h-full cursor-none'
+                  className='object-cover w-full h-full cursor-none border border-white'
                 />
               </a>
             </div>
@@ -39,7 +39,7 @@ export default function Contact() {
                 <img
                   src='/src/assets/img/LinkedIn.png'
                   alt='Gmail'
-                  className='object-cover w-full h-full cursor-none'
+                  className='object-cover w-full h-full cursor-none border border-white'
                 />
               </a>
             </div>

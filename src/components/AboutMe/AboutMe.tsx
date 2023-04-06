@@ -5,8 +5,8 @@ export default function AboutMe() {
     <>
       <div id='aboutHeader' className='pb-72 h-2/5'>
         <div className='section'>
-          <h2 className='headers'>About Me</h2>
-          <div className='row '>
+          <h2 className='headers 2xl:w-96'>About Me</h2>
+          <div className='row 2xl:flex-col'>
             <div>
               <h2 className='text-white text-3xl font-bold'>
                 Hey there, Im Haroon Khan

@@ -16,7 +16,7 @@ const cardData = [
 
 export default function Uses() {
   return (
-    <div className='flex justify-center'>
+    <div className='flex 2xl:mt-20'>
       <Carousel cards={cardData} />
     </div>
   );
