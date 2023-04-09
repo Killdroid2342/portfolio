@@ -10,7 +10,7 @@ export default function Footer() {
       <div className='flex flex-col items-center'>
         <div className='w-10 mt-5'>
           <a href='https://github.com/Killdroid2342' target='_blank'>
-            <img src='/src/assets/img/Github.png' className='cursor-none' />
+            <img src='src/assets/img/Github.png' className='cursor-none' />
           </a>
         </div>
       </div>
