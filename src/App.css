@@ -72,6 +72,9 @@ body {
 .fade-in {
   animation: fade-in 0.8s ease-out;
 }
+#container {
+  background: linear-gradient(to bottom, #1b2735 0, #090a0f 100%);
+}
 
 @keyframes fade-in {
   from {
