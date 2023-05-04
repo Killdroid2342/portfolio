@@ -3,6 +3,7 @@ module.exports = {
   content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
   theme: {
     screens: {
+      '2xlm': { min: '1535px' },
       '2xl': { max: '1535px' },
 
       xl: { max: '1279px' },

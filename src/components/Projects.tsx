@@ -93,11 +93,11 @@ export default function Projects() {
                 </a>
               </button>
             </div>
-            <div className='border border-white'></div>
-            <ul className='ml-20'>
+            <div className='border border-white 2xl:w-60 2xl:mt-5'></div>
+            <ul className='2xlm:ml-20 '>
               {projectData.map((project) => (
                 <li
-                  className='text-white text-center pb-10 font-bold 2xl:text-start 2xl:mt-5'
+                  className='text-white pb-10 font-bold 2xl:mt-5 '
                   key={project.title}
                   onClick={() => handleProjectClick(project)}
                 >
