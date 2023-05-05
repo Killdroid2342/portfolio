@@ -10,7 +10,6 @@
 		"astro": "astro"
 	},
 	"dependencies": {
-		"@astrojs/image": "^0.16.7",
 		"@astrojs/react": "^2.0.2",
 		"@astrojs/tailwind": "^3.0.1",
 		"@types/react": "^18.0.28",

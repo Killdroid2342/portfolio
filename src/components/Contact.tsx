@@ -1,5 +1,4 @@
 import React from 'react';
-import { Image } from '@astrojs/image/components';
 
 export default function Contact() {
   return (
@@ -10,8 +9,8 @@ export default function Contact() {
           <div className='flex flex-col'>
             <div className='w-24 h-24 rounded-full flex items-center'>
               <a href='mailto:haroonkhan120704@gmail.com' target='_blank'>
-                <Image
-                  src={import('./../assets/img/Gmail.png')}
+                <img
+                  src='assets/img/Gmail.png'
                   alt='Gmail'
                   className='object-cover w-full h-full cursor-none'
                 />
@@ -22,10 +21,10 @@ export default function Contact() {
           <div className='flex flex-col'>
             <div className='w-24 h-24 rounded-full flex items-center'>
               <a href='https://github.com/Killdroid2342' target='_blank'>
-                <Image
+                <img
                   alt='Gmail'
                   className='object-cover w-full h-full cursor-none'
-                  src={import('./../assets/img/Gmail.png')}
+                  src='assets/img/Github.png'
                 />
               </a>
             </div>
@@ -37,8 +36,8 @@ export default function Contact() {
                 href='https://www.linkedin.com/in/haroon-khan-12203b270/'
                 target='_blank'
               >
-                <Image
-                  src={import('./../assets/img/LinkedIn.png')}
+                <img
+                  src='assets/img/LinkedIn.png'
                   alt='Gmail'
                   className='object-cover w-full h-full cursor-none'
                 />
