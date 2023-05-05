@@ -7,9 +7,12 @@ import react from '@astrojs/react';
 import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
+import image from "@astrojs/image";
+
+// https://astro.build/config
 export default defineConfig({
   experimental: {
-    assets: true,
+    assets: true
   },
-  integrations: [react(), tailwind()],
+  integrations: [react(), tailwind(), image()]
 });
