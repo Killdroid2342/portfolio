@@ -3,7 +3,7 @@ import React from 'react';
 export default function Contact() {
   return (
     <div id='contact'>
-      <div className='section w-20'>
+      <div className='section'>
         <h2 className='headers mb-20 w-40'>Contact</h2>
         <div className='flex flex-row justify-evenly'>
           <div className='flex flex-col'>

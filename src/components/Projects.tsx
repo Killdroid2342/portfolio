@@ -23,11 +23,10 @@ const projectData: Project[] = [
     projectLink: 'https://covid-tracker-six-kappa.vercel.app/',
   },
   {
-    title: 'To Do List',
-    content:
-      'My To Do List is a tool that allows users to keep track of their tasks and activities. It typically involves typing or writing down the tasks and adding them to the list. By doing so, users can keep track of their progress and ensure that everything is completed on time. To Do Lists are essentially trackers as they allow users to monitor their activities and ensure that they remain on track to achieving their goals. They are often used in personal and professional settings and can be created using various formats, including digital or paper-based lists.',
-    githubLink: 'https://github.com/Killdroid2342/to-do-list',
-    projectLink: 'https://to-do-app-lac.vercel.app/',
+    title: 'E-Commerce',
+    content: `This innovative E-Commerce website seamlessly blends original concepts with elements inspired by StockX. Upon creating an account, users can explore various pages to curate their shopping experience, adding a diverse range of items to their virtual basket. Once the basket is accessed, all selected items are conveniently displayed for review. Subsequently, customers can proceed to the checkout page, where an itemized list of their chosen products is presented. This transition leads to the payment page, where users can input their personal and payment details. However, it's important to note that the payment functionality is disabled for demonstration purposes. This unique platform offers users an engaging and interactive shopping journey, combining the best of both originality and established e-commerce practices.`,
+    githubLink: 'https://github.com/Killdroid2342/E-Commerce',
+    projectLink: '',
   },
   {
     title: 'Joke App',
@@ -36,10 +35,10 @@ const projectData: Project[] = [
     projectLink: 'https://joke-app-woad.vercel.app/',
   },
   {
-    title: 'Random Colour',
-    content: `The random color app I've created, users can enjoy an easy and fun way to generate new and exciting colors. By simply clicking a button, a new color will be randomly generated and displayed as the background. But that's not all - the app also features a convenient copy button, which allows users to easily copy the corresponding HEX code of the background color. This is especially useful for designers, developers, and artists who need to quickly and accurately identify and replicate specific colors.`,
-    githubLink: 'https://github.com/Killdroid2342/random-colour',
-    projectLink: 'https://random-colour.vercel.app/',
+    title: 'Music App',
+    content: `This music application enables users to create accounts. With their accounts, users can log in, upload songs, and play them. The uploaded songs are saved within a designated directory. For this project, I utilized Express.js, TypeScript, and SQL. Notably, this project marks my inaugural experience in developing a full-stack application.`,
+    githubLink: 'https://github.com/Killdroid2342/music-app',
+    projectLink: '',
   },
 ];
 
