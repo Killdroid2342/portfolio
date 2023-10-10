@@ -29,10 +29,10 @@ const projectData: Project[] = [
     projectLink: '',
   },
   {
-    title: 'Joke App',
-    content: `The Joke App that I've developed is designed to provide users with a seamless and entertaining experience. With a simple and intuitive interface, users can easily select the genre of jokes they want to generate and enjoy a selection of humorous jokes. What's more, this app has the added benefit of allowing users to save their favorite jokes for future reference. Whether they want to share a joke with a friend or simply revisit a particularly funny one, saved jokes will be easily accessible even after closing the browser.`,
-    githubLink: 'https://github.com/Killdroid2342/joke-app',
-    projectLink: 'https://joke-app-woad.vercel.app/',
+    title: 'Solar System',
+    content: `The "Solar System" project is a captivating Three.js Fiber application that offers an interactive 3D replica of our solar system. Users can click on planets to access informative modals, providing fascinating details about each celestial body. It's a visually engaging and educational experience, perfect for both space enthusiasts and learners eager to explore the wonders of our cosmic neighborhood. Check out the live website to embark on a virtual journey through the solar system or contribute to its development on GitHub.`,
+    githubLink: 'https://github.com/Killdroid2342/solar-system',
+    projectLink: 'https://solar-system-seven-phi.vercel.app/',
   },
   {
     title: 'Music App',

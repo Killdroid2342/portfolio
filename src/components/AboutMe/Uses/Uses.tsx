@@ -10,7 +10,7 @@ const cardData = [
   {
     title: 'What I Use',
     content:
-      'Currently as a Frontend Developer, I use HTML, CSS, JavaScript, TypeScript, React, Git, Tailwindcss and Sass ',
+      'Currently as a Frontend Developer, I use HTML, CSS, JavaScript, TypeScript, React, Git, Tailwindcss, ThreejsFiber and Sass ',
   },
 ];
 
