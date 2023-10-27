@@ -16,11 +16,11 @@ const projectData: Project[] = [
     projectLink: 'https://calendar-three-liard.vercel.app/',
   },
   {
-    title: 'Covid Tracker',
+    title: 'Chat App',
     content:
-      'The COVID tracker is a tool that uses data from official sources to monitor and track the spread of COVID-19. They provide real-time updates on confirmed cases, deaths, recoveries, and other statistics related to the virus, often using visual aids like charts and graphs. These are displayed within a modal for easy access and analysis by users.',
+      'This elegant chat application harnesses the power of Socket.IO to seamlessly connect users, facilitating fluid, real-time conversations among an extensive user base. It offers a platform where numerous individuals can effortlessly engage in interactive dialogues, ensuring a captivating and efficient chat experience',
     githubLink: 'https://github.com/Killdroid2342/covid-tracker',
-    projectLink: 'https://covid-tracker-six-kappa.vercel.app/',
+    projectLink: '',
   },
   {
     title: 'E-Commerce',
