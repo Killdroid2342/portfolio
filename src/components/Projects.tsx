@@ -20,7 +20,7 @@ const projectData: Project[] = [
     content:
       'This elegant chat application harnesses the power of Socket.IO to seamlessly connect users, facilitating fluid, real-time conversations among an extensive user base. It offers a platform where numerous individuals can effortlessly engage in interactive dialogues, ensuring a captivating and efficient chat experience',
     githubLink: 'https://github.com/Killdroid2342/covid-tracker',
-    projectLink: '',
+    projectLink: 'https://chat-app-inky-ten.vercel.app/',
   },
   {
     title: 'E-Commerce',
