@@ -26,7 +26,7 @@ const projectData: Project[] = [
     title: 'E-Commerce',
     content: `This innovative E-Commerce website seamlessly blends original concepts with elements inspired by StockX. Upon creating an account, users can explore various pages to curate their shopping experience, adding a diverse range of items to their virtual basket. Once the basket is accessed, all selected items are conveniently displayed for review. Subsequently, customers can proceed to the checkout page, where an itemized list of their chosen products is presented. This transition leads to the payment page, where users can input their personal and payment details. However, it's important to note that the payment functionality is disabled for demonstration purposes. This unique platform offers users an engaging and interactive shopping journey, combining the best of both originality and established e-commerce practices.`,
     githubLink: 'https://github.com/Killdroid2342/E-Commerce',
-    projectLink: '',
+    projectLink: 'https://e-commerce-wine-mu.vercel.app/',
   },
   {
     title: 'Solar System',
@@ -38,7 +38,7 @@ const projectData: Project[] = [
     title: 'Music App',
     content: `This music application enables users to create accounts. With their accounts, users can log in, upload songs, and play them. The uploaded songs are saved within a designated directory. For this project, I utilized Express.js, TypeScript, and SQL. Notably, this project marks my inaugural experience in developing a full-stack application.`,
     githubLink: 'https://github.com/Killdroid2342/music-app',
-    projectLink: '',
+    projectLink: 'https://music-app-opal-one.vercel.app/',
   },
 ];
 
